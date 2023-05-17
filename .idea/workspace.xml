@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102bb5ac-e93b-45f5-ab0f-968a03879ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +45,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="357" y="31" width="1009" height="737" key="SettingsEditor" timestamp="1684360792663">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="357" y="31" width="1009" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1684360792663" />
     <state x="685" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1684359530345">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
