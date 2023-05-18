@@ -35,3 +35,22 @@ def bag_of_words(sentence):
                 # if present assign 1 to the bag within position i--index of the word found
                 bag[i] = 1
     return np.array(bag)
+
+
+def predict_response(sentence):
+    bag_of_wrds = bag_of_words(sentence)
+    res = model.predict(np.array([bag_of_wrds]))[0]
+    ERROR_THRESHOLD = 0.25
+    results = [[i, r] for i, r in enumerate(res)
+               if r > ERROR_THRESHOLD]
+
+    results.sort(key=lambda x: x[1], reverse=True)
+    tag_list = []
+    for r in results:
+        tag_list.append(
+            {
+                'intent': classes[r[0]],
+                'probability': str[r[1]]
+            }
+        )
+        return tag_list
