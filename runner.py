@@ -54,3 +54,17 @@ def predict_response(sentence):
             }
         )
         return tag_list
+
+
+def response_msg(intents_ls, intents_json):
+    tag = intents_ls[0]['intent']
+    list_of_intents = intents_json['intents']
+    result = ""
+    for i in list_of_intents:
+        if i['tag'] == tag:
+            result = random.choice(i['responses'])
+            break
+    return result
+
+
+print("Glen Chatbot running")
