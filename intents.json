@@ -37,7 +37,7 @@
     },
     {
       "tag": "appreciation",
-      "patterns": ["Thank you!","I am grateful","Thanks","I appreciate you","I appreciate you help","Thanks","Lovely"],
+      "patterns": ["Thank you!","I am grateful","Thanks","I appreciate you","I appreciate your help","Thanks","Lovely"],
       "responses": ["Glad I could help","Cool","You're Welcome","Sure mate... Its been my pleasure"]
     },
     {
