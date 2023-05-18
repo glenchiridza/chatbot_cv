@@ -26,7 +26,7 @@
     },
     {
       "tag": "details",
-      "patterns": ["Who made you?","what does your maker do?","Who is Glen?","Who is Glen Chiridza","Glen Chiridza?","Glen?"],
+      "patterns": ["Who made you?","what does your maker do?","Who is Glen?","Who is Glen Chiridza","Glen Chiridza?","Glen","glen","glen chiridza"],
       "responses": ["Glen Chiridza, one of the greatest computer scientist specializing in AI","AI Engineer Glen Chiridza is a entreprenuer and CEO of a tech company","Glen Chiridza, holds an honors degree in Computer Science and opting to studying his masters degree at Stanford"]
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "tag": "appreciation",
-      "patterns": ["Thank you!","I am grateful","Thanks","I appreciate you","I appreciate you help","Thanks man","Lovely"],
+      "patterns": ["Thank you!","I am grateful","Thanks","I appreciate you","I appreciate you help","Thanks","Lovely"],
       "responses": ["Glad I could help","Cool","You're Welcome","Sure mate... Its been my pleasure"]
     },
     {
