@@ -67,6 +67,10 @@ def response_msg(intents_ls, intents_json):
         if i['tag'] == tag:
             result = random.choice(i['responses'])
             break
+    if result is None:
+        # here we should have a way to save this data in a db file so that we can train our
+        # model with probable questions users have been asking
+        result = "I did not understand you, try again"
     return result
 
 
