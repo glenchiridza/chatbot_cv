@@ -76,6 +76,13 @@ def response_msg(intents_ls, intents_json):
 
 print("Glen Chatbot running")
 
+
+def runner_function(text_message):
+    ints_list = predict_response(text_message.lower())
+    reply = response_msg(ints_list, intents)
+    return reply
+
+
 # prompt user input
 while True:
     message = input("")
