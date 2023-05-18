@@ -83,9 +83,10 @@ def runner_function(text_message):
     return reply
 
 
+
 # prompt user input
-while True:
-    message = input("")
-    intents_list = predict_response(message.lower())
-    res = response_msg(intents_list, intents)
-    print(res)
+# while True:
+#     message = input("")
+#     intents_list = predict_response(message.lower())
+#     res = response_msg(intents_list, intents)
+#     print(res)

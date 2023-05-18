@@ -6,7 +6,7 @@ import os
 import hand_tracking_cv.hand_tracking_module as htm
 
 # import chat bot functions
-from runner import response_msg
+from runner import runner_function
 
 wCam, hCam = 640, 480
 video = cv2.VideoCapture(0)
@@ -17,6 +17,7 @@ pTime = 0
 detector = htm.HandDetector(min_detect_conf=0.75)
 
 tips_ids = [4, 8, 12, 16, 20]
+total_fingers = 0
 
 while True:
     success, img = video.read()
@@ -41,11 +42,23 @@ while True:
 
         total_fingers = fingers.count(1)
         print(total_fingers)
-
+        reply = ""
         if total_fingers == 0:
+            reply = runner_function("How are you")
+        # if total_fingers == 1:
+        #     reply = runner_function("Who made you")
+        # if total_fingers == 2:
+        #     reply = runner_function("Wadii")
+        # if total_fingers == 3:
+        #     reply = runner_function("Thank you")
+        # if total_fingers == 4:
+        #     reply = runner_function("how old are you")
+        # if total_fingers == 5:
+        #     reply = runner_function("Good bye")
 
-            cv2.putText(img, "well we have got nothing for you", (10, 70), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2,
+        cv2.putText(img, str(reply), (10, 70), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2,
                         (255, 0, 0), 2)
+
 
     cTime = time.time()
     fps = 1 / (cTime - pTime)
