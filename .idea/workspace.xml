@@ -32,7 +32,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.training">
+    <configuration name="shift1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatbot_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shift1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="chatbot_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.training" />
+        <item itemvalue="Python.shift1" />
       </list>
     </recent_temporary>
   </component>
@@ -74,10 +96,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="662" height="183" key="GridCell.Tab.0.bottom" timestamp="1684400205200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="662" height="183" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1684400205200" />
+    <state width="662" height="183" key="GridCell.Tab.0.center" timestamp="1684400205200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="662" height="183" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1684400205200" />
+    <state width="662" height="183" key="GridCell.Tab.0.left" timestamp="1684400205200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="662" height="183" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1684400205200" />
+    <state width="662" height="183" key="GridCell.Tab.0.right" timestamp="1684400205200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="662" height="183" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1684400205200" />
     <state x="357" y="31" width="1009" height="737" key="SettingsEditor" timestamp="1684360792663">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="357" y="31" width="1009" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1684360792663" />
+    <state x="691" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1684399126035">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="691" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1684399126035" />
     <state x="685" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1684359530345">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
