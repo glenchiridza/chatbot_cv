@@ -50,10 +50,13 @@ def predict_response(sentence):
         tag_list.append(
             {
                 'intent': classes[r[0]],
-                'probability': str[r[1]]
+                'probability': str(r[1])
             }
         )
         return tag_list
+
+
+predict_response("How are you Glen")
 
 
 def response_msg(intents_ls, intents_json):
@@ -68,3 +71,9 @@ def response_msg(intents_ls, intents_json):
 
 
 print("Glen Chatbot running")
+
+# prompt user input
+while True:
+    message = input("")
+    intents_list = predict_response(message)
+    res = response_msg(intents_list, intents)
