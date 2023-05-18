@@ -39,7 +39,7 @@ words = sorted(set(words))
 
 # saving the words and classes list to binary files ( Serialization )
 pickle.dump(words, open('words.pkl', 'wb'))
-# pickle.dump(classes/, open('classes.pkl', 'wb'))
+pickle.dump(classes, open('classes.pkl', 'wb'))
 
 training = []
 output_empty = [0] * len(classes)
