@@ -81,3 +81,4 @@ while True:
     message = input("")
     intents_list = predict_response(message)
     res = response_msg(intents_list, intents)
+    print(res)
